@@ -3,7 +3,7 @@ const Card = ({ title, image }) => {
     <div className="w-fit h-fit ">
       <div className="w-64 h-72">
         <img
-          src="/public/images/product1.png"
+          src="../../../public/images/product1.png"
           alt=""
           className="w-full h-full"
         />

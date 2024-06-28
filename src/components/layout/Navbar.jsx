@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import webLogoItem from "../../assets/image/LogoSekaItem.png";
+import webLogoItem from "../../../public/images/LogoSekaItem.png";
 
 const Navbar = () => {
   return (

@@ -1,4 +1,4 @@
-import webLogo from "../../assets/image/LogoSeka.png";
+import webLogo from "../../../public/images/LogoSeka.png";
 const HeroSection = () => {
   return (
     <div className="w-full h-96 relative  bg-black/50">
