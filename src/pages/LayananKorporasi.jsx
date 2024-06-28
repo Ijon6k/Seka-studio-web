@@ -1,5 +1,7 @@
+import PageWrapper from "../components/layout/PageWrapper";
+
 const LayananKorporasi = () => {
-  return <div>Layanan</div>;
+  return <PageWrapper>Layanan Korporasi</PageWrapper>;
 };
 
 export default LayananKorporasi;

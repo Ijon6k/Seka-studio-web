@@ -1,5 +1,7 @@
+import PageWrapper from "../components/layout/PageWrapper";
+
 const Portofolio = () => {
-  return <div>porto</div>;
+  return <PageWrapper>Portofolio</PageWrapper>;
 };
 
 export default Portofolio;

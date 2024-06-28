@@ -1,5 +1,7 @@
+import PageWrapper from "../components/layout/PageWrapper";
+
 const TentangKami = () => {
-  return <div>tentang kami</div>;
+  return <PageWrapper>Tentang Kami</PageWrapper>;
 };
 
 export default TentangKami;
