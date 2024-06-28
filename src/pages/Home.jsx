@@ -1,5 +1,7 @@
+import Footer from "../components/layout/Footer";
 import HeroSection from "../components/layout/HeroSection";
 import PageWrapper from "../components/layout/PageWrapper";
+import Benefit from "../components/ui/Benefit";
 import Card from "../components/ui/Card";
 import data from "../ProductInterest.json";
 
@@ -7,13 +9,13 @@ const Home = () => {
   return (
     <PageWrapper customClass={""}>
       <HeroSection></HeroSection>
-      <section className="grid grid-cols-3 place-items-center max-w-screen-xl w-screen  p-10 gap-20 ">
+      <section className="grid mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center max-w-screen-xl w-screen  p-10 gap-20 ">
         {data.map((course, index) => (
           <Card key={index} image={course.image} title={course.title} />
         ))}
       </section>
       {/* tentang kami */}
-      <section className="bg-black/50 h-96 w-full flex ">
+      <section className="bg-black/50 h-fit py-10 w-full flex ">
         <div className="w-fit m-auto px-20 flex justify-center flex-col">
           {" "}
           <h1 className="text-center text-white font-bold text-3xl pb-5">
@@ -38,6 +40,18 @@ const Home = () => {
           </button>
         </div>
       </section>
+      <section className="flex items-center justify-between max-w-screen-xl w-full mx-auto h-[450px]">
+        <Benefit></Benefit>
+        <Benefit></Benefit>
+        <Benefit></Benefit>
+      </section>
+      <section className="w-auto h-[500px] bg-red-200"></section>
+      <section className="w-full h-[400px] flex flex-col ">
+        <h1 className="text-center text-3xl font-bold m-auto">
+          Kli<span className="text-red-600">e</span>n kami
+        </h1>
+      </section>
+      <Footer></Footer>
     </PageWrapper>
   );
 };
