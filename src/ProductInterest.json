@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Product 1",
-    "image": "/src/assets/image/product1.png"
+    "image": "src/assets/image/product1.png"
   },
   {
     "id": 2,
