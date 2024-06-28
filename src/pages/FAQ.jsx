@@ -1,5 +1,7 @@
+import PageWrapper from "../components/layout/PageWrapper";
+
 const FAQ = () => {
-  return <div>FAQ</div>;
+  return <PageWrapper>Faq</PageWrapper>;
 };
 
 export default FAQ;

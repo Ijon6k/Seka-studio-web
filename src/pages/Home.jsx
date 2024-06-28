@@ -1,8 +1,10 @@
+import PageWrapper from "../components/layout/PageWrapper";
+
 const Home = () => {
   return (
-    <div className="bg-red-300 max-w-screen-2xl ">
+    <PageWrapper customClass={""}>
       <div>Home</div>
-    </div>
+    </PageWrapper>
   );
 };
 
