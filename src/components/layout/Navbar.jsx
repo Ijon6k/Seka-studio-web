@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import webLogoItem from "../../../public/images/LogoSekaItem.png";
+import webLogoItem from "/images/LogoSekaItem.png";
 
 const Navbar = () => {
   return (
-    <div className="fixed z-10 items-center h-20 w-screen bg-white flex top-0 max-w-screen-2xl mx-auto border-b-4 border-red-600">
+    <div className="fixed z-10 items-center h-20 w-screen bg-white flex  top-0 max-w-screen-2xl mx-auto border-b-4 border-red-600">
       <ul className="flex gap-5 w-full items-center justify-around">
         <li>
           <img
@@ -33,7 +33,7 @@ const Navbar = () => {
         <li>
           <Link
             to="/layanan-korporasi"
-            className="p-3 rounded-xl text-white bg-red-600 shadow-xl"
+            className="p-3 rounded-xl text-white bg-red-600 shadow-custom-shadow"
           >
             Layanan Korporasi
           </Link>
