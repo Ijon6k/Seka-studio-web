@@ -40,7 +40,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-      <section className="flex items-center justify-between max-w-screen-xl w-full mx-auto h-[450px]">
+      <section className="flex flex-col md:flex-row py-10 md:py-28 gap-5 items-center justify-between max-w-screen-xl w-full mx-auto h-fit">
         <Benefit></Benefit>
         <Benefit></Benefit>
         <Benefit></Benefit>

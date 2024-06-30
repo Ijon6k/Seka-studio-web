@@ -1,14 +1,14 @@
 const Footer = () => {
   return (
     <div className="h-fit">
-      <div className="bg-black text-white flex items-center border-t-4 border-red-600  h-72 px-20">
+      <div className="bg-black text-white flex gap-5 flex-col md:flex-row items-start md:items-center border-t-4 border-red-600  h-fit md:h-72 p-10 lg:px-20">
         <img
           src="/images/LogoSeka.png"
           alt="Logo Seka"
-          className="h-16 aspect-auto object-fit object-center object-cover"
+          className=" h-10 md:h-16  aspect-auto object-fit object-center object-cover"
         />
-        <div className="flex ml-32 gap-10 w-full justify-between ">
-          <div>
+        <div className="flex flex-col md:flex-row lg:ml-32 gap-10 w-full justify-between ">
+          <div className="mb-10 md:m-0">
             <h1 className="pb-3 text-lg font-bold">Jam Operasional</h1>
             <p>Senin - Sabtu : 08:15 - 17:00 WIB</p>
           </div>
