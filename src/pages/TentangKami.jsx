@@ -4,16 +4,16 @@ import PageWrapper from "../components/layout/PageWrapper";
 const TentangKami = () => {
   return (
     <PageWrapper>
-      <section className="w-full flex justify-center items-center bg-[url('/images/TentangKamiBG.webp')] text-white h-64 font-bold text-4xl bg-cover bg-[center_top_-110px]">
-        <h1>
+      <section className="w-full flex justify-center items-center bg-[url('/images/TentangKamiBG.webp')] text-white h-64  text-4xl bg-cover bg-[center_top_-110px]">
+        <h1 className="font-semibold">
           T<span className="text-red-600">e</span>ntang Kami{" "}
         </h1>
       </section>
       <section className="px-20 w-full ">
-        <div className="flex gap-28 w-max-screen-xl  text-lg items-center justify-between font-semibold">
+        <div className="flex gap-28 w-max-screen-xl   text-lg items-center justify-between font-medium">
           <img src="/images/person1.png" alt="person1" />
           <p className=" leading-loose text-xl">
-            <span className="font-bold">
+            <span className="font-semibold">
               S<span className="text-red-600">E</span>KA STUDIO
             </span>{" "}
             lahir serta tumbuh sebagai Creative Organizer Company yang berfokus
@@ -25,14 +25,14 @@ const TentangKami = () => {
             pelayanan terbaik dari jasa yang kami miliki.
           </p>
         </div>
-        <div className="flex gap-28 w-full px-18 text-lg items-center justify-between font-semibold">
+        <div className="flex gap-28 w-full px-18 text-lg items-center justify-between font-medium">
           <p className=" leading-loose text-xl">
             Kami menempatkan kepuasan anda sebagai prioritas utama, karena kami
             percaya kerjasama yang erat merupakan kunci kesuksesan yang utama.
             Karena itu juga, kami berusaha untuk tidak hanya mencetak, tetapi
             juga untuk merangkul kreativitas, ketelitian, dan dedikasi dalam
             setiap hasil yang kami kerjakan. Dengan{" "}
-            <span className="font-bold">
+            <span className="font-semibold">
               S<span className="text-red-600">E</span>KA STUDIO
             </span>
             , anda dapat memahami bahwa kami bukan hanya menjadi penyedia
